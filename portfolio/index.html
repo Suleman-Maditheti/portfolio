@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2fde6a3757.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1>My Personnel Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-items" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>Hello,<br>My Name is<br>Suleman</span></h1>
+                <p>Front-end Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------About Us-------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images1/resume2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>------------------------------------------------------------------------------------------------------------</p>
+                    <p>To obtain a challenging position in quality driven environment where my academic skills will add value to
+                        organization goals.</p>
+                    <p>------------------------------------------------------------------------------------------------------------</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Internship Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>programming Languages</span>:C,Python</li>
+                            <li><span>Database Language</span>:SQL</li>
+                            <li><span>Web Development</span>:HTML,CSS</li>
+                            <li><span>Basics Of MS Excel</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front-end Web Development</span><br>1 month of internship from BHARATH INTERN</li>
+                            <li><span>Fullstack Web Development</span><br>3 months of internship from 1STOP.AI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024(B.Tech)</span><br>Sri Venkateswara College Of Engineering,Tirupati</li>
+                            <li><span>2018-2020(MPC)</span><br>Sri Gayatri Junior College,Tirupati</li>
+                            <li><span>2018 passed out(SSC)</span><br>Zilla Parishad High School,Sadum</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Technical Quiz</span><br>Winner in Technical Quiz conducted in SV College Of Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------projects------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Portfolio Website</h2>
+                    <p>created a portfolio website using HTML,CSS to showcase our  skills and accomplishments</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Weather Website</h2>
+                    <p>build a website using HTML,CSS,JS that fetches weather data from an API and displays the current weather conditions</p>
+                    <a href=" https://suleman-maditheti.github.io/weather/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>E-commerce website</h2>
+                    <p>developed an E-commerce website that is used to purchase accessories etc in a remote mode</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------certifications------------- -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images1/work1.jpg">
+                    <div class="layer">
+                        <!-- <h3>Social Media App</h3>
+                        <p>nwduhwdoh9ed  qchqiohe8qd hqihw8dwojvfnore ihiw8wehwfbni</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images1/work2.jpg">
+                    <div class="layer">
+                        <!-- <h3>Music App</h3>
+                        <p>nwduhwdoh9ed  qchqiohe8qd hqihw8dwojvfnore ihiw8wehwfbni</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images1/work3.jpg">
+                    <div class="layer">
+                        <!-- <h3>online shopping App</h3> -->
+                        <!-- <p>nwduhwdoh9ed  qchqiohe8qd hqihw8dwojvfnore ihiw8wehwfbni</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+
+    <!-- ---------------------------contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>madithetisuleman@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7386455914</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/suleman-maditheti-4b4431239"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/I22BAJUGMW74A1"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=fi9uo6bxqb5l&utm_content=k7x8pqk"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/Sulemanmadithe1?t=h9cRG4wcwuTmXpkxLiwBIw&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                    <a href="images1/CSE-596-SULEMAN.pdf" download class="btn btn2">Downnload Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © portfolio All rights reserved.</p>
+        </div>
+    </div>
+
+    
+    
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyCMIu72Q-8ThdRgeV6S_471e_erZevJPCm6P3pyIeIPDakZ3F43qDnoW-58afLU0Xe5Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
